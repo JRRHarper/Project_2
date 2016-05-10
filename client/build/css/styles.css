@@ -1,0 +1,109 @@
+/*body {
+  height: 700px;  temporary until we get some content
+}*/
+*, body, html {margin: 0; padding: 0;}
+.pure-g {letter-spacing: initial;} /* resetting it to default */
+.wrap {
+  min-width: 600px;
+  width: 80%;
+  margin: auto;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.go-right {
+  float:right;
+}
+
+.refresh-button {
+  float: right;
+  line-height: 65px;
+  font-size: 2em;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/*.logo-left {
+  float: left;
+}*/
+
+.menu-right{
+  float: left;
+}
+
+.logo-left img {  
+  width: 80px;
+  height: 65px;
+  float: left;
+  margin-top: 0;
+}
+
+#stock-table {
+/*  width: 100%;
+  table-layout: fixed;*/
+}
+
+td {
+  transition: background-color 0.2s;
+}
+
+td.updated {
+  background-color: rgba(129,199,132, 0.6);
+}
+
+nav ul {
+  display:inline-block;
+}
+      
+
+nav {
+  height: 65px;
+  background-color: #2979FF;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+  margin-left: -5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.1em;
+  border-color: #ffffff;
+}
+
+nav .link {
+  font-size: 1.4em;
+  transition: color 0.5s;
+  line-height: 65px;
+  color: #eeeeee;
+}
+
+nav .link:hover {
+  color: #BBDEFB;
+}
+
+nav .link:hover a {
+  border-color: #BBDEFB !important; /* need to overwrite the js style */
+}
+
+tr:hover{
+  background-color:#f5f5f5
+}
+
+#line-graph {
+  max-height: 150px
+  max-width: 100px
+}
